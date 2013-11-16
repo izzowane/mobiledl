@@ -63,7 +63,7 @@ public class DDSViewActivity extends Activity {
 			webView.loadUrl("javascript:document.getElementById('MainBody_txtDLNumber').value ='"
 					+ myDlNO + "';");
 		}
-		// webView.loadUrl("javascript:document.getElementById('btnContinue').click();");
+		 webView.loadUrl("javascript:document.getElementById('MainBody_btnContinue').click();");
 	}
 
 }
