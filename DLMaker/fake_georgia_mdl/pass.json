@@ -1,0 +1,25 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.org.mobiledl.wallet",
+  "serialNumber" : "00000000000",
+  "webServiceURL" : "https://example.com/passes/",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "teamIdentifier" : "[Your TEAM IDENTIFIER]",
+  "barcode" : {
+    "message" : "123456789",
+    "format" : "PKBarcodeFormatPDF417",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "Georgia DDS",
+  "description" : "Mobile Driver License",
+  "logoText" : "",
+  "foregroundColor" : "rgb(0, 0, 0)",
+  "backgroundColor" : "rgb(255, 255, 255)",
+    "generic":{
+        "headerFields":[{"key":"header1","label":"Expires","value":"11\/2017 ","changeMessage":"Expiration: %@","textAlignment":"PKTextAlignmentRight"}],
+        "primaryFields":[{"key":"primary1","label":"Kasim ","value":"Reed"}],
+        "secondaryFields":[{"key":"secondary1","label":"Sex","value":"Male","changeMessage":"Member: %@","textAlignment":"PKTextAlignmentLeft"},{"key":"secondary2","label":"Height","value":"5'10","changeMessage":"New level: %@","textAlignment":"PKTextAlignmentLeft"},{"key":"secondary3","label":"DL NO","value":"051234567","changeMessage":"Member: %@","textAlignment":"PKTextAlignmentLeft"},
+                           {"label":"DOB","value":"06\/10\/1969 ","textAlignment":"PKTextAlignmentLeft","key":"secondary4"}],
+        "backFields":[{"key":"back0","label":"Powered by MobileDL","value":"","textAlignment":"PKTextAlignmentLeft","attributedValue":""}]
+    }
+}
